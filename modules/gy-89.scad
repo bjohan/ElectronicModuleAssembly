@@ -33,7 +33,7 @@ module gy89Fixture(r, th){
             translate([-1, -1, -2.54])
                 cube([21.5+2, 2.54+2, 2.54+1]);
             translate([0, 0, 0-th-1])
-                dkNano003HolePattern(r, th+2);
+                gy89HolePattern(r, th+2);
         
         
         }

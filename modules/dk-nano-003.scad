@@ -44,8 +44,8 @@ module dkNano003Fixture(r, th){
         intersection(){
             translate([0,0,-3]){
                 dkNano003HolePattern(6/2, 3);
-                translate([0,0,-th])
-                    cube([53, 59, th]);
+                translate([0,0,3-th])
+                    cube([53, 59, th-3]);
             }
             translate([0, 0, 0-3-th])
                 cube([53, 59, th+3+0.5]);
