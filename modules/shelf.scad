@@ -36,8 +36,8 @@ module shelfModuleEven(sx, sy, sz, th, r){
             shelfHeadHolePattern(sx, sy, sz, r+0.5, th+sz+2);
             shelfThreadHolePattern(sx, sy, sz, r, th+sz+2);
         }
-        translate([0, 0, sz+th-headDepth])
-            shelfHeadHolePattern(sx, sy, sz, 4, headDepth+1);
+        translate([0, 0, th])
+            shelfHeadHolePattern(sx, sy, sz, 4, sz+1);
         
     }
 }
